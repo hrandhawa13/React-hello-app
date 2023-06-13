@@ -8,13 +8,13 @@ const FindUser = () => {
 
     return (
         <div className="findUser">
-            <h2>Find User</h2>
+            <h2>Find User on Github</h2>
             <form>
                 <div className="findUserForm">
                     <label htmlFor="userName"></label>
                     <input 
                         type="text"
-                        placeholder="Enter Username"
+                        placeholder="Enter Github Username"
                         onChange={(event) => setUserName(event.target.value)} 
                     />
                 </div>
